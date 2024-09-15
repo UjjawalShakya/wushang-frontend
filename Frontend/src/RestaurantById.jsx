@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './RestaurantById.css';
 
 const RestaurantById = () => {
   const [restaurantId, setRestaurantId] = useState('');

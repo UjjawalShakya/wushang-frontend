@@ -39,7 +39,7 @@ const AllRestaurants = () => {
       </div>
       <div className="pagination">
         <button onClick={handlePrevPage}>Prev</button>
-        {page}
+        { }{page}{ }
         <button onClick={handleNextPage}>Next</button>
       </div>
     </div>
